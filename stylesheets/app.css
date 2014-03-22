@@ -9540,7 +9540,7 @@ h2 {
 
 /* line 43, ../scss/_overrides.scss */
 h3, h4, h5, p {
-  color: #333333;
+  color: #0b1902;
 }
 
 /* line 47, ../scss/_overrides.scss */
@@ -9564,35 +9564,37 @@ h5 {
 /* line 62, ../scss/_overrides.scss */
 p {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
+  line-height: 1.3em;
 }
 
-/* line 67, ../scss/_overrides.scss */
+/* line 68, ../scss/_overrides.scss */
 a {
   color: #85ccc2;
 }
 
-/* line 73, ../scss/_overrides.scss */
+/* line 74, ../scss/_overrides.scss */
 .top-bar {
   background: #c5e3ff;
 }
 
-/* line 77, ../scss/_overrides.scss */
+/* line 78, ../scss/_overrides.scss */
 .top-bar li h1 img {
-  margin: -40px 0 0 20px;
+  margin: -10px 0 0 20px;
+  left: 20px;
 }
 
-/* line 81, ../scss/_overrides.scss */
+/* line 83, ../scss/_overrides.scss */
 .top-bar-section > li > .has-dropdown {
   background: #c5e3ff;
 }
 
-/* line 84, ../scss/_overrides.scss */
+/* line 86, ../scss/_overrides.scss */
 .top-bar-section li:not(.has-form) a:not(.button) {
   background: #c5e3ff;
 }
 
-/* line 89, ../scss/_overrides.scss */
+/* line 91, ../scss/_overrides.scss */
 .hero {
   background-image: url("../assets/six-happy-kids.png");
   background-size: cover;
@@ -9600,19 +9602,19 @@ a {
   margin: 0;
   min-height: 600px;
 }
-/* line 95, ../scss/_overrides.scss */
+/* line 97, ../scss/_overrides.scss */
 .hero h1 {
   margin: 450px 0 0 50px;
   text-transform: uppercase;
   font-weight: bold;
 }
 
-/* line 103, ../scss/_overrides.scss */
+/* line 105, ../scss/_overrides.scss */
 .get-started {
   background: #668db3;
 }
 
-/* line 106, ../scss/_overrides.scss */
+/* line 108, ../scss/_overrides.scss */
 .get-started > p {
   font-size: 24px;
   font-weight: bold;
@@ -9623,18 +9625,18 @@ a {
   color: #ffffff;
 }
 
-/* line 116, ../scss/_overrides.scss */
+/* line 118, ../scss/_overrides.scss */
 .button {
   font-size: 24px;
   text-transform: uppercase;
 }
 
-/* line 124, ../scss/_overrides.scss */
+/* line 126, ../scss/_overrides.scss */
 .ending-soon-campaigns {
   margin-top: 20px;
 }
 
-/* line 127, ../scss/_overrides.scss */
+/* line 129, ../scss/_overrides.scss */
 .project-tile-wrap {
   border-radius: 9px;
   background: rgba(11, 25, 2, 0.06);
@@ -9642,7 +9644,7 @@ a {
   margin-bottom: 20px;
 }
 
-/* line 134, ../scss/_overrides.scss */
+/* line 136, ../scss/_overrides.scss */
 .project-card {
   overflow: hidden;
   border-radius: 6px;
@@ -9652,7 +9654,7 @@ a {
   background-color: #fff;
 }
 
-/* line 143, ../scss/_overrides.scss */
+/* line 145, ../scss/_overrides.scss */
 .panel {
   border-style: solid;
   border-width: 1px;
@@ -9662,7 +9664,7 @@ a {
   background: #f2f2f2;
 }
 
-/* line 151, ../scss/_overrides.scss */
+/* line 153, ../scss/_overrides.scss */
 .progress-bar-wrap {
   border-radius: 4px;
   position: absolute;
@@ -9675,7 +9677,7 @@ a {
   margin-top: 5px;
 }
 
-/* line 162, ../scss/_overrides.scss */
+/* line 164, ../scss/_overrides.scss */
 .pledged-amount {
   font: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   background: #358e81;
@@ -9683,7 +9685,7 @@ a {
   height: 25px;
 }
 
-/* line 168, ../scss/_overrides.scss */
+/* line 170, ../scss/_overrides.scss */
 .amount {
   padding-left: 10px;
   padding-top: 5px;
@@ -9693,7 +9695,7 @@ a {
   font-size: 14px;
 }
 
-/* line 179, ../scss/_overrides.scss */
+/* line 181, ../scss/_overrides.scss */
 .title-heading {
   background-color: #b38f55;
   padding: 40px 0;
@@ -9703,12 +9705,24 @@ a {
   margin-bottom: -40px;
 }
 
-/* line 187, ../scss/_overrides.scss */
+/* line 189, ../scss/_overrides.scss */
 .title-heading h2 {
   color: #ffffff;
   font-size: 100px;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+/* line 195, ../scss/_overrides.scss */
+.sub-heading h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 200, ../scss/_overrides.scss */
+.charts h4 {
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 /*

@@ -1,7 +1,7 @@
 $include-html-button-classes: $include-html-classes;
 
 // Base colors
-$base-color: #333;          // black
+$base-color: #0b1902;          // black
 $brand-color: #C5E3FF;      // light blue
 $secondary-color: #668DB3;  // dark blue
 $action-color: #85CCC2;     // green
@@ -15,13 +15,13 @@ $small-font-leading: 0.75;
 $base-font-size: 18px;
 $base-font-leading: 1;
 $medium-font-size: 24px;
-$medium-font-leading: 1.25;
+$medium-font-leading: 1.3em;
 $large-font-size: 32px;
-$large-font-leading: 1.25;
+$large-font-leading: 1.3em;
 $xlarge-font-size: 43px;
-$xlarge-font-leading: 1.25;
+$xlarge-font-leading: 1.3em;
 $xxlarge-font-size: 100px;
-$xxlarge-font-leading: 1.25;
+$xxlarge-font-leading: 1.3em;
 
 // Typeface
 
@@ -61,7 +61,8 @@ h5 {
 
 p {
   font: $secondary-typeface;
-  font-size: $tiny-font-size;
+  font-size: $base-font-size;
+  line-height: $medium-font-leading;
 }
 
 a {
@@ -75,7 +76,8 @@ a {
 }
 
 .top-bar li h1 img {
-    margin: -40px 0 0 20px;
+    margin: -10px 0 0 20px;
+    left: 20px;
   }
 
   .top-bar-section > li > .has-dropdown {
@@ -190,3 +192,12 @@ a {
         font-weight: 900;
         text-transform: uppercase;
       }
+  .sub-heading h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .charts h4 {
+      text-transform: uppercase;
+      font-weight: 500;
+    }
