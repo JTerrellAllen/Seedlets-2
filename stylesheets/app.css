@@ -9761,6 +9761,37 @@ a {
   font-size: 14px;
 }
 
+/* line 241, ../scss/_overrides.scss */
+.edit-profile {
+  margin-bottom: 40px;
+}
+
+/* line 245, ../scss/_overrides.scss */
+.change-password h4 {
+  font-weight: 500;
+}
+
+/* line 249, ../scss/_overrides.scss */
+.change-password p {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* line 254, ../scss/_overrides.scss */
+#checkbox1 {
+  margin-top: 20px;
+}
+
+/* line 258, ../scss/_overrides.scss */
+.privacy-text {
+  font-size: 14px;
+}
+
+/* line 262, ../scss/_overrides.scss */
+.profile-button-save button {
+  font-size: 14px;
+}
+
 /*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3

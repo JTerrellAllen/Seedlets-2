@@ -235,3 +235,30 @@ a {
   .the-campaign-details span {
     font-size: $small-font-size;
   }
+
+  // * Edit Profile * //
+
+  .edit-profile {
+    margin-bottom: 40px;
+  }
+
+  .change-password h4 {
+    font-weight: 500;
+  }
+
+  .change-password p {
+    font-weight: 200;
+    font-size: $small-font-size;
+  }
+
+  #checkbox1 {
+    margin-top: 20px;
+  }
+
+  .privacy-text {
+    font-size: $small-font-size;
+  }
+
+  .profile-button-save button {
+    font-size: $small-font-size;
+  }
