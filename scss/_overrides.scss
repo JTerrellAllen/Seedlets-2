@@ -116,7 +116,7 @@ a {
     color: #ffffff;
     }
   .button {
-    font-size: $medium-font-size;
+    font-size: $base-font-size;
     text-transform: uppercase;
   }
 
@@ -192,6 +192,9 @@ a {
         font-weight: 900;
         text-transform: uppercase;
       }
+
+  // * About Page * //
+
   .sub-heading h3 {
     text-transform: uppercase;
     font-weight: 700;
@@ -201,3 +204,34 @@ a {
       text-transform: uppercase;
       font-weight: 500;
     }
+
+  // * Campaign Donate * //
+
+  .campaign-title-heading {
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .title-heading p {
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 0.5em;
+    color: #ffffff;
+  }
+
+  .campaign-description {
+    top: 20px;
+  }
+
+
+  .campaign-backing-stats, .pledged, .seeders, .days-left {
+    font-size: $xlarge-font-size;
+    line-height: 1em;
+  }
+
+  .the-campaign-details h3 {
+    line-height: 1em;
+    font-weight: 600;
+  }
+  .the-campaign-details span {
+    font-size: $small-font-size;
+  }

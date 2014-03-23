@@ -9627,7 +9627,7 @@ a {
 
 /* line 118, ../scss/_overrides.scss */
 .button {
-  font-size: 24px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -9713,16 +9713,52 @@ a {
   text-transform: uppercase;
 }
 
-/* line 195, ../scss/_overrides.scss */
+/* line 198, ../scss/_overrides.scss */
 .sub-heading h3 {
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* line 200, ../scss/_overrides.scss */
+/* line 203, ../scss/_overrides.scss */
 .charts h4 {
   text-transform: uppercase;
   font-weight: 500;
+}
+
+/* line 210, ../scss/_overrides.scss */
+.campaign-title-heading {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+/* line 214, ../scss/_overrides.scss */
+.title-heading p {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 0.5em;
+  color: #ffffff;
+}
+
+/* line 221, ../scss/_overrides.scss */
+.campaign-description {
+  top: 20px;
+}
+
+/* line 226, ../scss/_overrides.scss */
+.campaign-backing-stats, .pledged, .seeders, .days-left {
+  font-size: 43px;
+  line-height: 1em;
+}
+
+/* line 231, ../scss/_overrides.scss */
+.the-campaign-details h3 {
+  line-height: 1em;
+  font-weight: 600;
+}
+
+/* line 235, ../scss/_overrides.scss */
+.the-campaign-details span {
+  font-size: 14px;
 }
 
 /*
