@@ -1,7 +1,7 @@
 $include-html-button-classes: $include-html-classes;
 
 // Base colors
-$base-color: #0b1902;          // black
+$base-color: #0b1902;       // black
 $brand-color: #C5E3FF;      // light blue
 $secondary-color: #668DB3;  // dark blue
 $action-color: #85CCC2;     // green
@@ -260,5 +260,39 @@ a {
   }
 
   .profile-button-save button {
-    font-size: $small-font-size;
+    font-sizes: $small-font-size;
   }
+
+// * Start a Campaign * //
+
+.start-campaign {
+  margin-bottom: 40px;
+}
+
+.button-group .button {
+  left: -28px;
+}
+
+.right {
+  float: left !important;
+}
+
+.grey-field {
+  background-color: #EEF2EA;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  // margin-top: 20px;
+  margin-top: 10px;
+}
+
+form .row .row .column, form .row .row .columns {
+padding: 0 0.1rem;
+}
+
+textarea {
+  margin-top: 10px;
+  height: 200px;
+}

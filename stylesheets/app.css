@@ -9789,7 +9789,45 @@ a {
 
 /* line 262, ../scss/_overrides.scss */
 .profile-button-save button {
-  font-size: 14px;
+  font-sizes: 14px;
+}
+
+/* line 268, ../scss/_overrides.scss */
+.start-campaign {
+  margin-bottom: 40px;
+}
+
+/* line 272, ../scss/_overrides.scss */
+.button-group .button {
+  left: -28px;
+}
+
+/* line 276, ../scss/_overrides.scss */
+.right {
+  float: left !important;
+}
+
+/* line 280, ../scss/_overrides.scss */
+.grey-field {
+  background-color: #EEF2EA;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* line 286, ../scss/_overrides.scss */
+input[type="text"] {
+  margin-top: 10px;
+}
+
+/* line 291, ../scss/_overrides.scss */
+form .row .row .column, form .row .row .columns {
+  padding: 0 0.1rem;
+}
+
+/* line 295, ../scss/_overrides.scss */
+textarea {
+  margin-top: 10px;
+  height: 200px;
 }
 
 /*
