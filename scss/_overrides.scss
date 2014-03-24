@@ -71,6 +71,10 @@ a {
 
 // Header
 
+.top-bar-section .right {
+    float: right !important;
+  }
+
 .top-bar {
   background: #c5e3ff;
 }
@@ -195,6 +199,14 @@ a {
 
   // * About Page * //
 
+  .main-content {
+    margin-top: 80px;
+  }
+
+  .about-image p {
+    margin-top: 20px;
+
+  }
   .sub-heading h3 {
     text-transform: uppercase;
     font-weight: 700;
