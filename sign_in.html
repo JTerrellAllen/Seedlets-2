@@ -26,7 +26,7 @@
  -->    <li class="has-dropdown">
         <a href="#">Menu</a>
         <ul class="dropdown">
-          <li><a href="#">Link</a></li>
+          <li><a href="#" id="trigger-overlay">Sign in</a></li>
           <li><a href="#">First link in dropdown</a></li>
           <li><a href="#">First link in dropdown</a></li>
         </ul>
@@ -69,15 +69,11 @@
 
   </div>
 </div> -->
-
-<!-- End of Header & Nav -->
-  <div id="myModal" class="reveal-modal" data-reveal>
-    <h2>Sign in</h2>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, dignissimos!</p>
-    <p>I'm a cool paragrah that lives inside of an cooler modal. WIns</p>
-    <a class="close-reveal-modal">&#215;</a>
+<div class="row">
+  <div class="twelve columns">
+    <button id="trigger-overlay" type="button">Open Overlay</button>
   </div>
-
+</div>
 
 <!-- Footer -->
 
@@ -102,8 +98,26 @@
   </div>
 
 
+    <div class="overlay overlay-hugeinc">
+      <button type="button" class="overlay-close">Close</button>
+      <div class="row">
+        <div class="twelve columns">
+          <form>
+            <input type="text"></input>
+            <input type="password"></input>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+
+    <script src="js/classie.js"></script>
+    <script src="js/demo1.js"></script>
+    <script src="js/snap.svg-min.js"></script>
   </body>
 </html>
