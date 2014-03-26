@@ -433,3 +433,39 @@ textarea {
     min-height: 34px;
   }
 }
+
+/* Overlay Sign-in Form */
+
+.container {
+  margin: 60px 60px 60px 60px;
+}
+
+.social-login, .email-login {
+  text-align: center;
+}
+  .social-login > h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .fi-social-facebook, .fi-social-google-plus {
+    font-size: 60px;
+    color: #333;
+    padding: 10px;
+  }
+
+.user-input {
+  margin-top: 10px;
+  }
+
+.email-login .row {
+  margin-left: 325px;
+
+}
+.email-login .row .user-input-password {
+  margin-top: -10px;
+}
+
+.sign-in-button .button {
+  font-size: $small-font-size;
+  right: 5px;
+}
