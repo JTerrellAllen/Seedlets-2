@@ -10029,6 +10029,32 @@ textarea {
   right: 5px;
 }
 
+/* User Profile */
+/* line 475, ../scss/_overrides.scss */
+.profile {
+  margin-top: 40px;
+}
+
+/* line 478, ../scss/_overrides.scss */
+.profile-image img {
+  border-radius: 50%;
+  border: 3px solid white;
+  display: inline-block;
+  box-shadow: 2px 5px 20px #bdc3c7;
+}
+
+/* line 485, ../scss/_overrides.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 490, ../scss/_overrides.scss */
+.social-icons-profile {
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
 /*
  * Foundation Icons v 3.0
  * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
